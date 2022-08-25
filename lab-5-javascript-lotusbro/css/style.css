@@ -1,0 +1,41 @@
+
+.head{
+    background-color: #5bad8e; 
+    border: 1px;
+    align-items: center;
+}
+ th, td{
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+    background: rgb(221, 196, 196);   
+}
+thead{
+    align-items: center;
+    font-size: 10px;
+}
+.today{
+    background-color: lightblue;
+}
+ td:hover{
+    background-color: red;
+}
+.prev{
+    text-align: left;
+}
+.next{
+    text-align: right;
+}
+.table{
+    width: auto;
+    border: 1px;
+}
+fieldset{
+    background-color: rgb(221, 221, 107);
+}
+.hoverNode{
+    background-color: rgb(221, 221, 107);
+    border: 1px solid black;
+    font-weight: bold;
+    
+}

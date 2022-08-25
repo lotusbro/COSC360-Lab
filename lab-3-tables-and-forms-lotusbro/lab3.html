@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<table> 
+   <caption class="head">May 2022</caption>
+   <thead> 
+    <tr>
+   <th>S</th>
+   <th>M</th>
+   <th>T</th>
+   <th>W</th>
+   <th>T</th>
+   <th>F</th>
+   <th>S</th>
+    </tr>
+   </thead>
+   <tfoot>
+       <tr>
+        <td colspan="3" class="prev"><a href="#"> April </a></td>  
+        <td colspan="4" class="next"><a href="#"> June </a></td>
+       </tr>        
+   </tfoot>
+   <tbody class="dates">
+       <tr>
+           <td> <a href='#'>1</a></td>
+           <td>2</td>
+           <td>3</td>
+           <td>4</td>
+           <td>5</td>
+           <td>6</td>
+           <td>7</td>
+       </tr>
+       <tr>
+        <td> <a href='#'>8</a></td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td> <a href='#'>15</a></td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td> <a href='#'>22</a></td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td> <a href='#'>29</a></td>
+        <td class="today">30</td>
+        <td>31</td>
+    </tr>
+   </tbody>
+</table>
+<fieldset>
+    <legend> Meeting Details</legend>
+    <!-- <form method="get" action="http://www.randyconnolly.com/tests/process.php"> -->
+    <form method="post" action="http://www.randyconnolly.com/tests/process.php">
+    <p>
+        <label>Client Name:</label>
+        <input type="text" name="client"/>
+    </p>
+    <p>
+        <label> First Meeting?</label>
+        <input type="checkbox" name="first"/>
+    </p>
+    <p>
+        <label>Client Type:</label>
+        <input type="radio" name="type"/>School
+        <input type="radio" name="type"/>College
+        <input type="radio" name="type"/>University
+    </p>
+    <p>
+        <label>Meeting Date:</label>
+        <input type="date" name="meeting date"/>
+    </p>
+    <input type="submit"/>
+    <input type="reset"/>
+    </form>
+</fieldset>
